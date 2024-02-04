@@ -1,0 +1,111 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background: url("../backimg.jpg");
+  display: flex;
+
+  align-items: center; /* vertically center */
+  justify-content: center; /* horizontally center */
+  background-repeat: no-repeat;
+  background-size: cover; /* Make the image cover the container */
+  background-position: center center;
+  height: 100vh;
+}
+.h1 {
+  margin-top: 3.5rem;
+  font-size: 2.6rem;
+  text-align: center;
+}
+.container {
+  height: 10rem;
+  width: 25rem;
+  /* border: 1px solid black; */
+  background-color: white;
+}
+.form {
+  text-align: center;
+}
+#input {
+  height: 2.5rem;
+  width: 18rem;
+  margin-top: 1.3rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.main {
+  height: 34rem;
+  width: 25rem;
+  /* border: 1px solid black; */
+  margin-top: 2rem;
+  text-align: center;
+}
+.main-1 {
+  height: 25rem;
+  width: 25rem;
+  /* border: 1px solid black; */
+  margin-top: 2rem;
+}
+.main-2 {
+  height: 34rem;
+  width: 25rem;
+  /* border: 1px solid black; */
+  margin-top: 2rem;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.icon {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon img {
+  height: 8rem;
+  width: 8rem;
+}
+.weather {
+  margin-top: 10rem;
+}
+.submit {
+  margin-top: 0.5rem;
+  height: 3rem;
+  width: 5rem;
+  border-radius: 5px;
+}
+
+.clear {
+  background: url(../sunnyWeather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Make the image cover the container */
+  background-position: center center;
+}
+.smoke {
+  background: url(../smokeWeather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Make the image cover the container */
+  background-position: center center;
+}
+.thunder {
+  background: url(../thunderStormWeather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Make the image cover the container */
+  background-position: center center;
+}
+.cloud {
+  background: url(../clearWeather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Make the image cover the container */
+  background-position: center center;
+}
+.haze {
+  background: url(../hazeWeather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Make the image cover the container */
+  background-position: center center;
+}
+.dark-mode {
+  background-color: gray;
+}
